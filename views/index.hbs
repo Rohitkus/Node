@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is hbs</h1>
+    <table>
+       {{#each data}}
+     
+       
+       <tr><td>{{this.name}}</td>
+       <td>{{this.last}}</td>
+       <td>{{this.buy}}</td>
+       <td>{{this.sell}}</td>
+       <td>{{this.volume}}</td></tr>
+      {{/each}}
+    </table>
+</body>
+</html>
